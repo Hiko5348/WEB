@@ -1,0 +1,28 @@
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg") ;
+	margin: 0;
+	padding: 0;
+  }
+  h1 {
+	color: black;
+	background-color: cornsilk;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+  }
+  
+  h2 {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: 100;
+	text-align: left;
+	width: 70%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  p {
+	color: AliceBlue;     
+	text-align: left;
+	font-weight:  lighter;
+	opacity: 0.5;
+  }
+  

@@ -19,6 +19,7 @@ body {
 	font-size: 18px;
 	font-weight: 700;
 	letter-spacing: 4px;
+	padding: 7px;
   }
   
   #banner {
@@ -41,7 +42,11 @@ body {
   #main {
 	padding: 40px;
 	text-align: center;
-    width: 400px;
+	width: 400px;
+	margin: 0 auto;
+	border: 1px solid black;
+	height: 1000px;
+	overflow: scroll;
   }
   
   h1 {
@@ -71,10 +76,17 @@ body {
 	color: grey;
 	font-size: 16px;
 	line-height: 48px;
+	margin-top: 60px;
+	min-width: 200px;
+	max-width: 800px;
+	min-height: 200;
+	max-height: 300;
   }
   
   .pull-quote {
-    width: 350px;
+	width: 400px;
+	margin: 0 auto;
+
   }
   
   .byline {
@@ -91,6 +103,7 @@ body {
 	position: relative;
 	text-align: center;
 	width: 100%;
+	padding: 40px;
   }
   
   .share a {
@@ -100,10 +113,16 @@ body {
 	color: white;
 	display: inline-block;
 	text-decoration: none;
+	margin: 10px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   .share a:hover {
 	background: white;
 	border: 1px solid red;
 	color: red;
+  }
+
+  .donate {
+	  display: none;
   }

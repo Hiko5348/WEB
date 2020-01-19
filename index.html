@@ -1,53 +1,116 @@
 <!DOCTYPE html>
-<html lang="en" tir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <title>Form a Story</title>
-  </head>
-  <body>
-    <section id="top">
-      <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-html-forms/formAStoryLogo.svg" alt="Form A Story Logo">
-    </section>
+<html>
+<head>
+  <title>Please Participate in Our Survey!</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,700|Varela+Round" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
 
-    <section id="main">
-      <h1>Complete the Form -<br> Complete the Story!</h1>
-      <hr>
-      <form action="story.html" method="GET">
-        <label for="animal-1">The first animal:</label>
-        <input type="text" name="animal-1" id="animal-1" required><br />
-        <label for="animal-2">Another Animal:</label>
-        <input type="text" name="animal-2" id="animal-2" required><br />
-        <label for="animal-3">One More Animal:</label>
-        <input type="text" name="animal-3" id="animal-3" required><br />
-        <label for="adj-1">Adjective (past tense)</label>
-        <input type="text" name="adj-1" id="adj-1" required><br />
-        <input type="submit" value="Form My Story!"><br />
-        <label for="verb-1">Verb</label>
-        <input type="txt" name="verb-1" id="verb-1"><br />
-        <label for="num-1">Number</label>
-        <input id="num-1" type="number" name="num-1"><br />
-        <label for="yes"></label>
-        <input id="yes" name="answer" type="radio" value="yes" >
-        <label for="yes">Yes</label>
-        <input id="no" type="radio" name="answer" value="no">
-        <label for="no">No</label><br />
-        <label for="speed">speed</label>
-        <select size="speed" name="speed" required><br />
-        <option value="fast">fast</option>
-        <option value="slow">slow</option>
-        </select>
-        <datalist>
-          <label for="quote">Motivational Quote:</label><br />
-          <input id="quote" name="quote" type="text" value="quote"><br />
-          <datalist="quote-choices"><br />
-            <option value="winner gets ice cream!"></option><br />
-          </datalist>
-        </datalist>
-        <label for="message"></label><br />
-        <textarea id="message" name="message" cols="40" rows="8"></textarea><br />
-      </form>
-    </section>
-  </body>
+  <header>
+    <ul>
+      <li> <a href="#q1" ></a>Question 1</li>
+      <li><a href="#q2" ></a>Question 2</li>
+      <li><a href="#q3" ></a>Question 3</li>
+      <li<a href="#q4" ></li>>Question 4</li>>
+      <li><a href="#q5" ></a>Question 5</li>
+    </ul>
+  </header>
+  
+  <div class="welcome">
+    <h1><strong>Welcome</strong> to our survey!</h1>
+    <p>We're looking forward to getting your answers so we can make sure our products and services are the best they can be!</p>
+    <section id="q1"></section>
+    <div class="section"></div>
+    <section id="q2"></section>
+    <div class="section"></div>
+  </div>
+
+  <div class="question">
+    <h4>Question 1</h4>
+    <h2>I like participating in physical activity such as running, swimming, or biking.</h2>
+
+    <div class="answer">
+      <h3>Disagree</h3>
+    </div>
+
+    <div class="answer">
+      <h3>Neutral</h3>
+    </div>
+
+    <div class="answer">
+      <h3>Agree</h3>
+    </div>
+  </div>
+
+  <div class="question">
+    <h4>Question 2</h4>
+    <h2>I try to keep up to date with the latest fashion in active wear.</h2>
+
+    <div class="answer">
+      <h3>Disagree</h3>
+    </div>
+
+    <div class="answer">
+      <h3>Neutral</h3>
+    </div>
+
+    <div class="answer">
+      <h3>Agree</h3>
+    </div>
+  </div>
+
+  <div class="question">
+    <h4>Question 3</h4>
+    <h2>I purchase clothing online regularly.</h2>
+
+    <div class="answer">
+      <h3>Disagree</h3>
+    </div>
+
+    <div class="answer">
+      <h3>Neutral</h3>
+    </div>
+
+    <div class="answer">
+      <h3>Agree</h3>
+    </div>
+  </div>
+
+  <div class="question">
+    <h4>Question 4</h4>
+    <h2>I try to buy goods that are designed and/or manufactured in my home country.</h2>
+
+    <div class="answer">
+      <h3>Disagree</h3>
+    </div>
+
+    <div class="answer">
+      <h3>Neutral</h3>
+    </div>
+
+    <div class="answer">
+      <h3>Agree</h3>
+    </div>
+  </div>
+
+  <div class="question">
+    <h4>Question 5</h4>
+    <h2>I look to famous athletes when trying to choose what to wear when training.</h2>
+
+    <div class="answer">
+      <h3>Disagree</h3>
+    </div>
+
+    <div class="answer">
+      <h3>Neutral</h3>
+    </div>
+
+    <div class="answer">
+      <h3>Agree</h3>
+    </div>
+  </div>
+  <footer> <h3>Thanks for taking our survey!</h3>
+  </footer>
+</body>
 </html>
